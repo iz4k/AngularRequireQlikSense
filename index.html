@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Angular+Require</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="">test page 1</a></li>
+      <li><a href="">test page 2</a></li>
+    </ul>
+  </nav>
+  <div ng-view></div>
+  <footer>Version: <span app-version></span></footer>
+
+  <script src="bower_components/requirejs/require.js" data-main="main.js"></script>
+</body>
+
+</html>
